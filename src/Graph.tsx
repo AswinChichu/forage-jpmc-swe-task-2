@@ -53,8 +53,7 @@ class Graph extends Component<IProps, {}> {
       elem.setAttribute('column-pivots', '["stock"]');
       elem.setAttribute('row-pivots', '["timestamp"]');
       elem.setAttribute('columns', '["top_ask_price"]');
-      elem.setAttribute('aggregates','{"stock":"distinct count", "top_ask_price":"avg", "top_bid_price":"avg", "timestamp":"distinct count"}');
-      }
+      elem.setAttribute('aggregates', '{"stock":"distinct count", "top_ask_price":"avg", "top_bid_price":"avg", "timestamp":"distinct count"}');
     }
   }
 
@@ -75,5 +74,4 @@ class Graph extends Component<IProps, {}> {
     }
   }
 }
-
-export default Graph;
+ export default Graph;
